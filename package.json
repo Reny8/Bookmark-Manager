@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-cli-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/style.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Reny8/Tailwind-CLI-Practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Reny8/Tailwind-CLI-Practice/issues"
+  },
+  "homepage": "https://github.com/Reny8/Tailwind-CLI-Practice#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
