@@ -590,6 +590,10 @@ video {
   margin-top: 1rem;
 }
 
+.mt-14 {
+  margin-top: 3.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -662,6 +666,10 @@ video {
 
 .overflow-x-hidden {
   overflow-x: hidden;
+}
+
+.overflow-y-hidden {
+  overflow-y: hidden;
 }
 
 .overflow-x-visible {
@@ -853,6 +861,10 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
 .hover\:border-2:hover {
   border-width: 2px;
 }
@@ -907,6 +919,10 @@ video {
     width: 50%;
   }
 
+  .md\:w-auto {
+    width: auto;
+  }
+
   .md\:flex-row {
     flex-direction: row;
   }
@@ -921,6 +937,10 @@ video {
     --tw-space-x-reverse: 0;
     margin-right: calc(1.75rem * var(--tw-space-x-reverse));
     margin-left: calc(1.75rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .md\:overflow-x-hidden {
+    overflow-x: hidden;
   }
 
   .md\:border-b-0 {
@@ -969,6 +989,10 @@ video {
 
   .lg\:justify-start {
     justify-content: flex-start;
+  }
+
+  .lg\:overflow-x-hidden {
+    overflow-x: hidden;
   }
 
   .lg\:text-left {
