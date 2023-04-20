@@ -4,6 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shorcut icon"
+      href="./images/favicon-32x32.png"
+      type="image/png"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,7 +18,30 @@
     <link rel="stylesheet" href="css/style.css" />
     <title>Bookmark Manager</title>
   </head>
-  <body>
-    <h1 class="text-3xl">Tailwind Test</h1>
+  <body class="overflow-x-hidden">
+    <nav class="container relative mx-auto p-6">
+      <div class="flex items-center justify-between space-x-20 my-6">
+        <div class="z-30">
+          <img src="./images/logo-bookmark.svg" alt="" id="logo" />
+        </div>
+        <div
+          class="hidden items-center space-x-10 uppercase text-grayishBlue md:flex"
+        >
+          <a id="features" href="" class="tracking-widest hover:text-softRed"
+            >features</a
+          >
+          <a id="download" href="" class="tracking-widest hover:text-softRed"
+            >download</a
+          >
+          <a id="faq" href="" class="tracking-widest hover:text-softRed">faq</a>
+          <a
+            href="
+          "
+            class="uppercase px-8 py-2 text-white bg-softRed border-2 border-softRed rounded-lg shadow-md hover:opacity-80"
+            >login</a
+          >
+        </div>
+      </div>
+    </nav>
   </body>
 </html>
