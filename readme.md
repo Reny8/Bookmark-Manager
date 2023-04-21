@@ -6,7 +6,7 @@
 
 #### Run the following commands if you would like to run the application and make your own adjustments
 
-> Open your forked down copy of the repo in VS Code.
-> Open the terminal and run " npm install "
-> Once that is completed, run " npm run watch ". This command will refresh the browser and show your changes to once you click save.
-> Run the application with Live Server
+1. Open your forked down copy of the repo in VS Code.
+2. Open the terminal and run " npm install "
+3. Once that is completed, run " npm run watch ". This command will refresh the browser and show your changes to once you click save.
+4. Run the application with Live Server
